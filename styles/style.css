@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+}
+
+body {
+  position: relative;
+  background-color: whitesmoke;
+  padding: 1%;
+  border: 1px solid black;
+  font-family: "Times New Roman", Times, serif;
+  margin: 5%;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+  width: 850px;
+  margin: auto;
+}
+
+header {
+  background-color: pink;
+  width: 850px;
+  height: 360px;
+  margin: 0 auto;
+  position: relative;
+  top: -20px;
+  left: -20px;
+}
+
+.headerdiv {
+  background-color: purple;
+  width: 850px;
+  height: 310px;
+  margin: auto;
+}
+
+.profileImage {
+  border: 1px whitesmoke;
+  position: relative;
+  top: 180px;
+  left: 20px;
+}
+
+li {
+  display: inline;
+  padding: 5px 20px;
+  border: 1px solid black;
+}
+
+.headerdiv .nav1 {
+  position: relative;
+  top: 70px;
+  left: 140px;
+}
+
+.headerdiv h2 {
+  position: relative;
+  top: 60px;
+  left: 180px;
+}
+
+.headerdiv p {
+  position: relative;
+  top: 50px;
+  left: 180px;
+}
+
+main {
+  position: relative;
+  width: 850px;
+  height: 400px;
+  left: -20px;
+}
+
+.columnleft {
+  border: 1px solid hotpink;
+  background-color: firebrick;
+  width: 328px;
+  height: 300px;
+  float: left;
+  position: relative;
+}
+
+.columnright {
+  border: 1px solid hotpink;
+  background-color: firebrick;
+  width: 512px;
+  height: 300px;
+  float: left;
+  position: relative;
+  left: 5px;
+  margin-left: 5px;
+}
